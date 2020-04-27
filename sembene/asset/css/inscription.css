@@ -1,0 +1,114 @@
+#logo
+{
+	position: absolute;
+	display: inline-block;
+	background-image: url('./img/icones/logo-QuizzSA.png');
+	background-size: 35%; 
+	background-repeat: no-repeat;
+	width:10%;
+	height: 75px;
+}
+
+#fond1
+{
+	width:100%;
+	height: 80px;
+	background-color:#00011F;
+	margin: auto;
+}
+
+#container
+{
+margin: auto;
+width:100%;
+height:55em; 
+background-image: url(../img/img-bg.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+#fond2
+{
+width: 76%;
+height: 51em;
+background-color: white;
+margin: auto;
+border-radius: 12px;
+margin-bottom:2px;
+}
+
+#container_formulaire
+{
+width: 66%;
+height: 44em;
+position: relative;
+display: inline-block;
+margin-bottom: 20%;
+left: 5%;
+;
+}
+
+#container_img
+{
+width: 19%;
+height: 44em;
+position: absolute;
+background-size: 99%;
+margin-left: 60%;
+top:79px;
+}
+
+input[type="text"]
+{
+width:50%;
+height:3.5em;
+position: relative;
+display: block;
+border-radius: 5px;	
+}
+
+input[type="submit"]
+{
+width:27%;
+height: 40px;
+position: relative;
+display: block;
+left:15%;
+font-size:22px;
+color:white;
+cursor:pointer;
+background-size: 100%;
+background-color: blue;
+}
+input[type="password"]
+{
+width:50%;
+height:3.5em;
+position: relative;
+display: block;
+border-radius: 5px;
+}
+
+input[name="choix"]
+{
+	position: relative;
+	bottom: 22px;
+	left:30%;
+}
+label
+{
+
+font-size:20px; 
+margin: auto;
+}
+.containerimage{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 2px solid red;
+	position: absolute;
+	top: -100px;
+	right: -170px;
+	background-color: white;
+	
+}

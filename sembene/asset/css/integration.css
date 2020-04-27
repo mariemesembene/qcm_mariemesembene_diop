@@ -1,0 +1,120 @@
+.interrogation{
+    background-image: url(../img/img-bg.jpg);
+    height: 80%;
+    width: 80%;
+    margin-left: 180px;
+    background-color: #f2f2f2 ;
+
+}
+.couleur{
+    background-color:#f2f2f2 ;
+    height: 635PX;
+    width: 100%;
+}
+.interface{
+    background-color:#f2f2f2;
+    position: absolute;
+    top: 160px;
+    left:465px ;
+    width: 30%;
+    height: 50%;
+    border-radius: 5px;
+}
+.loginform{
+    background-color:#81BEF7 ;
+    margin-top: -20PX;
+    border-radius: 5px;
+    
+}
+#login{
+    width: 370px;
+    border-radius: 3px;
+    height: 50px;
+    background-color:#f2f2f2 ;
+}
+#pwd{
+
+ width: 370px;
+    border-radius: 3px;
+    height: 50px;
+    background-color:#f2f2f2 ;
+}
+.connexion{
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color:#81BEF7 ;
+    width:100px ;
+    height: 50px;
+    border-radius: 3px;
+}
+#texte{
+    margin-left: 150px;
+    margin-top: -40px;
+    
+}
+.plaisir{
+    background-color: black;
+    height: 80px;
+}
+.test{
+    color: blanchedalmond;
+    font-size: 38px;
+    margin-top: -60px;
+    text-align: center;
+}
+.fiche{
+    background-color:#f2f2f2;
+   
+    margin-left: 44px;
+    width: 98%;
+    height: 85%;
+    border-radius: 5px; 
+    margin-top: 15px;
+
+}
+
+
+.logo{
+       width:100PX; 
+       height:100PX;
+       background-image: url('../img/logo-QuizzSA.png');
+   }
+.h4{
+text-align: center;
+       
+   }
+ #nom{
+    width: 370px;
+    border-radius: 3px;
+    height: 50px;
+    background-color:#f2f2f2 ;
+}
+#password{
+    width: 370px;
+    border-radius: 3px;
+    height: 50px;
+    background-color:#f2f2f2 ;
+}
+#confirmpassword{
+    width: 370px;
+    border-radius: 3px;
+    height: 50px;
+    background-color:#f2f2f2 ;
+}
+#prenom{
+    width: 370px;
+    border-radius: 3px;
+    height: 50px;
+    background-color:#f2f2f2 ;
+}
+  .sinscrire{
+      margin-right: 200px;
+  } 
+  
+#fond1
+{
+	width:100%;
+	height: 80px;
+	background-color:#00011F;
+	margin: auto;
+}
