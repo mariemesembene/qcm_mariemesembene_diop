@@ -42,7 +42,7 @@ if(empty($_SESSION['admin'])){
 				</div>
 				</div>
 				<div class="liste">
-				<a href="menu.php?sembene=ListeQuestions"><div class="listequestions">Liste Questions
+				<a href="menu.php?sembene=ListeQuestions&page=1"><div class="listequestions">Liste Questions
 						<img src="../asset/img/icones/ic-liste.png" >
 					</div></a>	
 					<a href="menu.php?sembene=CreerAdmin">	<div class="creeradmin">Creer Admin

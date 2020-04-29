@@ -111,7 +111,7 @@ if($_POST['nb-points']>=1){
 				ajout.innerHTML=ajout.innerHTML+newInput1;
 			}
 
-		};
+	};
 		function marema(plus){
 			
 			var suppre=document.getElementById('miel'+plus);

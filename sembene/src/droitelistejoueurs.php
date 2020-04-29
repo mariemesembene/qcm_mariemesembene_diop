@@ -98,7 +98,7 @@ $liste = getdata();
       
 </table>       
     </div>
-    <button type="submit" class="suivant" ><a href="listejoueur.php?lien=monscore&page=<?=$page+1?>">suivant</a> </button>
-    <button type="submit" class="precedent" ><a href="listejoueur.php?lien=monscore&page=<?=$page-1?>">precedent</a> </button>
+    <button type="submit" class="suivant" ><a href="menu.php?sembene=ListeJoueurs&page=<?=$page+1?>">suivant</a> </button>
+    <button type="submit" class="precedent" ><a href="menu.php?sembene=ListeJoueurs&page=<?=$page-1?>">precedent</a> </button>
 </div>
 	</div>

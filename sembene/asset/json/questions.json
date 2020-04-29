@@ -1,1 +1,89 @@
-[{"questions":"\t\t\t\t\r\n\tqui est le president actuel du senegal\t\t","nb-points":"5","typereponse":"text","simpl":"macky sall"},{"questions":"sembene est elle folle?\t\t","nb-points":"4","typereponse":"text","simpl":"oui"},{"questions":"quel est le capital du sengal?\t\t","nb-points":"3","typereponse":"text","simpl":"dakar"},{"questions":"\t\t\t\t\r\n\tque signifie odc?\t\t","nb-points":"5","typereponse":"text","simpl":"orange digital center"},{"questions":"\t\t\t\t\r\n\tquel est le plat prefere des senegalais?\t\t","nb-points":"5","typereponse":"text","simpl":"thiebou dieune"},{"questions":"\t\t\t\t\r\nquelle es la divise du senegal?\t\t","nb-points":"10","typereponse":"text","simpl":"nane ataya"},{"questions":"\t\t\t\t\r\n\tqui est assane\t\t","nb-points":"4","typereponse":"simple","simpl":["personne","chose"]},{"questions":"\t\t\t\t\r\n\t\tcest quoi le senegal\t","nb-points":"5","typereponse":"simple","reponse":{"1":"un pays","2":"un livre"},"vrais":"1"}]
+[
+    {
+        "questions": "\t\t\t\t\r\n\tqui est le president actuel du senegal\t\t",
+        "nb-points": "5",
+        "typereponse": "text",
+        "simpl": "macky sall"
+    },
+    {
+        "questions": "sembene est elle folle?\t\t",
+        "nb-points": "4",
+        "typereponse": "text",
+        "simpl": "oui"
+    },
+    {
+        "questions": "quel est le capital du sengal?\t\t",
+        "nb-points": "3",
+        "typereponse": "text",
+        "simpl": "dakar"
+    },
+    {
+        "questions": "\t\t\t\t\r\n\tque signifie odc?\t\t",
+        "nb-points": "5",
+        "typereponse": "text",
+        "simpl": "orange digital center"
+    },
+    {
+        "questions": "\t\t\t\t\r\n\tquel est le plat prefere des senegalais?\t\t",
+        "nb-points": "5",
+        "typereponse": "text",
+        "simpl": "thiebou dieune"
+    },
+    {
+        "questions": "\t\t\t\t\r\nquelle es la divise du senegal?\t\t",
+        "nb-points": "10",
+        "typereponse": "text",
+        "simpl": "nane ataya"
+    },
+    {
+        "questions": "\t\t\t\t\r\n\tqui est sembene?",
+        "nb-points": "7",
+        "typereponse": "multiple",
+        "reponse": {
+            "1": "un pays",
+            "2": "un livre",
+            "3": "une personne"
+        },
+        "vrais": {
+            "1": "1",
+            "2": "2"
+        }
+    },
+    {
+        "questions": "\tqui est mama\t\t\t\r\n\t\t\t",
+        "nb-points": "7",
+        "typereponse": "simple",
+        "reponse": {
+            "1": "ellle",
+            "2": "nous",
+            "3": "vous"
+        },
+        "vrais": "1"
+    },
+    {
+        "questions": "fruit prefere\t\t",
+        "nb-points": "6",
+        "typereponse": "multiple",
+        "reponse": {
+            "1": "chocola",
+            "2": "madd",
+            "3": "sel",
+            "4": "guinar"
+        },
+        "vrais": {
+            "1": "1",
+            "4": "4"
+        }
+    },
+    {
+        "questions": "\t\t\t\t\r\nfatou va ",
+        "nb-points": "6",
+        "typereponse": "simple",
+        "reponse": {
+            "1": "chocola",
+            "2": "non",
+            "3": "sel"
+        },
+        "vrais": "2"
+    }
+]
