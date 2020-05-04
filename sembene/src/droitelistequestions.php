@@ -15,9 +15,8 @@ $file="questions"    ;
 $mareme=file_get_contents("../asset/json/".$file.".json");
 $mareme=json_decode($mareme, true);
 
-$max=$_GET['page']*5;
+$max=$_GET['p']*5;
 $min=$max-5;
-$page=$_GET['page'];
 
 for($i=$min;$i<$max;$i++){
   
@@ -81,8 +80,8 @@ foreach($yt as $moi){
 
     ?>
                     </div>
-                 <button type="submit" class="suivant" ><a href="menu.php?sembene=ListeQuestions&page=<?=$page+1?>">suivant</a> </button>
-    <button type="submit" class="precedent" ><a href="menu.php?sembene=ListeQuestions&page=<?=$page-1?>">precedent</a> </button>
+                 <button type="submit" class="suivant" ><a href="menu.php?PAGES=ListeQuestions&p=<?=$_GET['p']+1?>">suivant</a> </button>
+    <button type="submit" class="precedent" ><a href="menu.php?PAGES=ListeQuestions&p=<?=$_GET['p']-1?>">precedent</a> </button>
                 </div>
                             </div>
                            

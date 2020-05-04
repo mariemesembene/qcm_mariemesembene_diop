@@ -10,7 +10,7 @@ if(empty($_SESSION['admin'])){
 <!DOCTYPE html>
 <html>
 <head>
-	<title>page accueil admin</title>
+	<title>PAGES accueil admin</title>
 	<link rel="stylesheet" href="../asset/css/menu.css">
 </head>
 <body>
@@ -42,17 +42,17 @@ if(empty($_SESSION['admin'])){
 				</div>
 				</div>
 				<div class="liste">
-				<a href="menu.php?sembene=ListeQuestions&page=1"><div class="listequestions">Liste Questions
+				<a href="menu.php?PAGES=ListeQuestions&p=1"><div class="listequestions">Liste Questions
 						<img src="../asset/img/icones/ic-liste.png" >
 					</div></a>	
-					<a href="menu.php?sembene=CreerAdmin">	<div class="creeradmin">Creer Admin
+					<a href="menu.php?PAGES=CreerAdmin">	<div class="creeradmin">Creer Admin
 					<img src="../asset/img/icones/ic-ajout.png">
 					</div></a>
 					
-					<a href="menu.php?sembene=ListeJoueurs">	<div class="listejoueurs"> Liste Joueurs
+					<a href="menu.php?PAGES=ListeJoueurs">	<div class="listejoueurs"> Liste Joueurs
 					<img src="../asset/img/icones/ic-liste-active.png">
 					</div></a>
-					<a href="menu.php?sembene=CreerQuestions">	<div class="creerquestions">Creer Questions	
+					<a href="menu.php?PAGES=CreerQuestions">	<div class="creerquestions">Creer Questions	
 					<img src="../asset/img/icones/ic-ajout.png">
 					</div></a>
 				</div>
@@ -65,14 +65,14 @@ if(empty($_SESSION['admin'])){
 			<div class="">
 
 				<?php
-            if (isset($_GET['sembene'])) {
-                if ($_GET['sembene'] == "ListeQuestions") {
+            if (isset($_GET['PAGES'])) {
+                if ($_GET['PAGES'] == "ListeQuestions") {
                     include ("droitelistequestions.php");        
-                }elseif ($_GET['sembene'] == "CreerAdmin") {
+                }elseif ($_GET['PAGES'] == "CreerAdmin") {
                     include ("droitecreeradmin.php");
-                }elseif($_GET['sembene'] == "ListeJoueurs") {
+                }elseif($_GET['PAGES'] == "ListeJoueurs") {
                     include ("droitelistejoueurs.php");
-                }elseif ($_GET['sembene'] == "CreerQuestions"){
+                }elseif ($_GET['PAGES'] == "CreerQuestions"){
                     include ("droitecreerquestions.php");
                 }
             }
